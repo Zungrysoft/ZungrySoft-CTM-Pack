@@ -14,4 +14,5 @@ execute unless entity @s[tag=ignore_light] unless predicate zwp:dark run scorebo
 execute if score spawning value matches 1 run function zwp:gameplay/custom_spawn_pick
 
 #Kill self
+tp @s ~ -100 ~
 kill @s

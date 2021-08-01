@@ -8,4 +8,4 @@ execute as @e at @s run function zwp:ai/ai_run
 execute as @e[type=arrow,predicate=zwp:landed_arrow,tag=!landed] at @s run function zwp:gameplay/arrow_effects
 
 #Custom Spawners
-execute as @e[type=armor_stand,tag=spawncloud] at @s run function zwp:gameplay/custom_spawn
+execute as @e[type=endermite,tag=spawncloud] at @s run function zwp:gameplay/custom_spawn

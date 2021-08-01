@@ -1,0 +1,1 @@
+give @p crossbow{display:{Name:'[{"text":"Buckshot Engine","italic":false,"color":"dark_gray","bold":true}]',Lore:['{"text":"Instant-Reload","color":"gray","italic":false}']},Enchantments:[{id:"minecraft:piercing",lvl:5},{id:"minecraft:multishot",lvl:1}],auto_reload:1}

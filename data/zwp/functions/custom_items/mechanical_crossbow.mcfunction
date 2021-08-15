@@ -1,1 +1,1 @@
-give @p crossbow{display:{Name:'[{"text":"Mechanical Crossbow","italic":false,"color":"yellow","bold":false}]',Lore:['{"text":"Instant-Reload","color":"gray","italic":false}']},Enchantments:[{id:"minecraft:piercing",lvl:1}],auto_reload:1}
+give @s crossbow{display:{Name:'[{"text":"Mechanical Crossbow","italic":false,"color":"yellow","bold":false}]',Lore:['{"text":"Instant-Reload","color":"gray","italic":false}']},Enchantments:[{id:"minecraft:piercing",lvl:1}],auto_reload:1}

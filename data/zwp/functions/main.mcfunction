@@ -1,3 +1,6 @@
+#Custom global effects
+function zwp:gameplay/global_effects
+
 #Custom item effects
 execute as @a at @s run function zwp:gameplay/item_checks
 

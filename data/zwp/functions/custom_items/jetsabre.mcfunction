@@ -1,1 +1,1 @@
-give @p iron_sword{display:{Name:'[{"text":"Jetsabre","italic":false,"color":"yellow","bold":false}]',Lore:['{"text":"Grants speed on kill","color":"gray","italic":false}']},Enchantments:[{id:"minecraft:sharpness",lvl:2}],speed_sword:1}
+give @s iron_sword{display:{Name:'[{"text":"Jetsabre","italic":false,"color":"yellow","bold":false}]',Lore:['{"text":"Grants speed on kill","color":"gray","italic":false}']},Enchantments:[{id:"minecraft:sharpness",lvl:2}],speed_sword:1}

@@ -1,1 +1,1 @@
-give @p diamond_sword{display:{Name:'[{"text":"Crashwright\'s Curse","italic":false,"color":"yellow","bold":false}]',Lore:['{"text":"Curse of Slowness","color":"red","italic":false}']},Enchantments:[{id:"minecraft:sharpness",lvl:3}],curse_slowness:1}
+give @s diamond_sword{display:{Name:'[{"text":"Crashwright\'s Curse","italic":false,"color":"yellow","bold":false}]',Lore:['{"text":"Curse of Slowness","color":"red","italic":false}']},Enchantments:[{id:"minecraft:sharpness",lvl:3}],curse_slowness:1}

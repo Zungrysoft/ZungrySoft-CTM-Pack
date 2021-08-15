@@ -9,6 +9,8 @@ scoreboard objectives add dx dummy
 scoreboard objectives add dz dummy
 scoreboard objectives add prev_health dummy
 scoreboard objectives add lifetime dummy
+scoreboard objectives add owner dummy
+scoreboard objectives add break_spawner minecraft.mined:minecraft.spawner
 
 #Game setup
 gamerule keepInventory true

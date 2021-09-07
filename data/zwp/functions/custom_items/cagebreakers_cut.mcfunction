@@ -1,1 +1,0 @@
-give @s iron_pickaxe{display:{Name:'[{"text":"The Cagebreaker\'s Cut","italic":false,"color":"dark_purple","bold":false}]',Lore:['{"text":"Breaks clusters of spawners","color":"gray","italic":false}']},Enchantments:[{id:unbreaking,lvl:1}],cluster_breaker:1}

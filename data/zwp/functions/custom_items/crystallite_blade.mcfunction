@@ -1,1 +1,0 @@
-give @s diamond_sword{display:{Name:'[{"text":"Crystallite Blade","italic":false,"color":"aqua","bold":false}]',Lore:['{"text":"Haste III","color":"gray","italic":false}']},Enchantments:[{id:infinity,lvl:1}],HideFlags:1,haste:3}

@@ -1,1 +1,0 @@
-give @s iron_sword{display:{Name:'[{"text":"Mechanical Lockblade","italic":false,"color":"dark_green","bold":false}]',Lore:['{"text":"Reloads your crossbows on kill","color":"gray","italic":false}']},Enchantments:[{id:sharpness,lvl:1}],lockblade:1}

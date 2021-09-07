@@ -13,3 +13,5 @@ execute if entity @s[tag=jumping_skeleton_2] run function zwp:custom_mobs/jumpin
 # Dodge Blaze
 execute if entity @s[tag=dodge_blaze] run function zwp:custom_mobs/dodge_blaze
 
+# Phantom Fix
+execute if entity @s[tag=phantom] run function zwp:custom_mobs/phantom

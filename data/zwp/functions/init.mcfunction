@@ -8,6 +8,7 @@ scoreboard objectives add prev_health dummy
 scoreboard objectives add lifetime dummy
 scoreboard objectives add owner dummy
 scoreboard objectives add cooldown dummy
+scoreboard objectives add instant_attack dummy
 
 #Game setup
 gamerule keepInventory true

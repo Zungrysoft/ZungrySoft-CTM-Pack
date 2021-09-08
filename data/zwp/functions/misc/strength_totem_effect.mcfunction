@@ -1,6 +1,6 @@
-effect give @s minecraft:strength 40 9 false
-effect give @s minecraft:speed 40 1 false
-scoreboard players set @s instant_attack 800
+effect give @s minecraft:strength 45 9 false
+effect give @s minecraft:speed 45 1 false
+scoreboard players set @s instant_attack 900
 
 playsound minecraft:entity.illusioner.prepare_blindness player @a ~ ~ ~ 0.5 2
 playsound minecraft:entity.illusioner.prepare_blindness player @a ~ ~ ~ 0.5 1.99

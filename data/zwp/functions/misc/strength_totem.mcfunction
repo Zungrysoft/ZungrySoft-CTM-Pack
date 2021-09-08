@@ -1,1 +1,1 @@
-summon minecraft:marker ~ ~-1 ~ {Tags:["strength_totem"]}
+summon minecraft:marker ~ ~-0.5 ~ {Tags:["strength_totem"]}

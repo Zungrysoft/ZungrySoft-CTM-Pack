@@ -1,3 +1,6 @@
+# Phantom Fix
+execute if entity @s[tag=phantom] run function zwp:custom_mobs/phantom
+
 # War Pigs
 execute if entity @s[tag=war_pig_1] run function zwp:custom_mobs/war_pig_1
 execute if entity @s[tag=war_pig_2] run function zwp:custom_mobs/war_pig_2
@@ -13,5 +16,8 @@ execute if entity @s[tag=jumping_skeleton_2] run function zwp:custom_mobs/jumpin
 # Dodge Blaze
 execute if entity @s[tag=dodge_blaze] run function zwp:custom_mobs/dodge_blaze
 
-# Phantom Fix
-execute if entity @s[tag=phantom] run function zwp:custom_mobs/phantom
+# Shifting Blaze
+execute if entity @s[tag=shifting_blaze] run function zwp:custom_mobs/shifting_blaze
+
+# Brood Mother
+execute if entity @s[tag=broodmother] run function zwp:custom_mobs/broodmother

@@ -1,0 +1,1 @@
+summon minecraft:blaze ~ ~ ~ {CustomName:'[{"text":"Shiftfire Demon"}]',Health:16,Attributes:[{Name:"generic.max_health",Base:16F}],Tags:["shifting_blaze"],DeathLootTable: "zwp:entities/shifting_blaze"}

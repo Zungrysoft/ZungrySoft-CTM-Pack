@@ -7,3 +7,9 @@ execute if entity @s[type=skeleton,tag=jumping_skeleton] run function zwp:ai/jum
 
 # Dodge Blaze
 execute if entity @s[type=blaze,tag=dodge_blaze] run function zwp:ai/dodge_blaze
+
+# Shifting Blaze
+execute if entity @s[type=blaze,tag=shifting_blaze] run function zwp:ai/shifting_blaze
+
+# Brood Mother
+execute if entity @s[type=husk,tag=broodmother] run function zwp:ai/broodmother

@@ -1,0 +1,1 @@
+summon minecraft:husk ~ ~ ~ {IsBaby:1b,CustomName:'[{"text":"Brood-Child"}]',Health:1,Attributes:[{Name:"generic.max_health",Base:1F},{Name:"generic.attack_damage",Base:8f},{Name:"generic.armor",Base:-2000f}],HandItems:[{id:wheat,Count:1}],ArmorItems:[{},{},{},{id:oak_fence,Count:1}],HandDropChances:[0F,0F],ArmorDropChances:[0F,0F,0F,0F],DeathLootTable:"",Tags:["broodchild"]}

@@ -54,8 +54,8 @@ summon arrow ~ ~1.4 ~ {Motion:[0d,0d,0d],NoGravity:1,LeftOwner:0b,PierceLevel:50
 data modify entity @e[type=arrow,limit=1,tag=new] {} merge from storage temp fireball
 
 #Set the fireball's damage
-execute if entity @s[tag=power_low] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 10
-execute if entity @s[tag=power_medium] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 18
+execute if entity @s[tag=power_low] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 12
+execute if entity @s[tag=power_medium] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 15
 execute if entity @s[tag=power_high] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 25
 execute if entity @s[tag=power_super] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 38
 execute if entity @s[tag=power_super,predicate=tid:in_layer_finale] run data modify entity @e[type=arrow,limit=1,tag=new] damage set value 42

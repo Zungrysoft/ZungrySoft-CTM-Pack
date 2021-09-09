@@ -12,6 +12,7 @@ execute if entity @s[tag=war_pig_multishot] run function zwp:custom_mobs/war_pig
 # Flesheater
 execute if entity @s[tag=jumping_skeleton] run function zwp:custom_mobs/jumping_skeleton
 execute if entity @s[tag=jumping_skeleton_2] run function zwp:custom_mobs/jumping_skeleton_2
+execute if entity @s[tag=jumping_skeleton_3] run function zwp:custom_mobs/jumping_skeleton_3
 
 # Dodge Blaze
 execute if entity @s[tag=dodge_blaze] run function zwp:custom_mobs/dodge_blaze

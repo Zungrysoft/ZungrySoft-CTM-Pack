@@ -11,11 +11,11 @@ playsound minecraft:block.vine.step hostile @a ~ ~ ~ 0.4 0.7
 execute positioned ~ ~0.7 ~ run function zwp:custom_mobs/broodchild
 
 # Merge data into the child
-execute store result entity @e[tag=broodchild,sort=nearest,limit=1] Motion[0] double 0.01 run scoreboard players get @s dx
-execute store result entity @e[tag=broodchild,sort=nearest,limit=1] Motion[2] double 0.01 run scoreboard players get @s dz
+execute store result entity @e[tag=broodchild,tag=new,sort=nearest,limit=1] Motion[0] double 0.01 run scoreboard players get @s dx
+execute store result entity @e[tag=broodchild,tag=new,sort=nearest,limit=1] Motion[2] double 0.01 run scoreboard players get @s dz
 
 # Do the child's y motion
-data modify entity @e[tag=broodchild,sort=nearest,limit=1] Motion[1] set value 0.4
+data modify entity @e[tag=broodchild,tag=new,sort=nearest,limit=1] Motion[1] set value 0.4
 
 # Untag the child
-tag @e[tag=broodchild,sort=nearest] remove broodchild
+tag @e[tag=broodchild,tag=new,sort=nearest] remove new

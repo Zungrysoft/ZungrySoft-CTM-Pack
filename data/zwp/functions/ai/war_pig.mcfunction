@@ -11,7 +11,7 @@ execute unless score @s prev_health = temp value run scoreboard players set @s a
 execute unless score @s prev_health = temp value run scoreboard players set @s phase 0
 execute store result score @s prev_health run data get entity @s Health
 
-#Count prev_health the fireball time
+#Count up the fireball time
 scoreboard players add @s ammo 1
 
 #If the fireball is ready to shoot, warn the player with particles

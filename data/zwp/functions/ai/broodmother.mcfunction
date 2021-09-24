@@ -10,7 +10,7 @@ scoreboard players add @s ammo 1
 #If the attack is ready to shoot, first make sure there aren't too many broodchildren nearby
 scoreboard players set children_nearby value 0
 execute if score @s ammo matches 60.. unless score @s phase matches 1 store result score children_nearby value if entity @e[type=minecraft:husk,tag=broodchild,distance=0..50]
-execute if score children_nearby value matches 25.. run scoreboard players set @s ammo 0
+execute if score children_nearby value matches 7.. run scoreboard players set @s ammo 0
 
 #If the attack is ready to shoot, warn the player with particles
 execute if score @s ammo matches 60.. unless score @s phase matches 1 run function zwp:ai/broodmother_charge

@@ -35,3 +35,8 @@ Archetype of Wrath
 --------------
 Recommended Tier: Iron/Diamond
 Overview: A zombie that tears up the ground in front of it.
+
+Warlock Device
+--------------
+Recommended Tier: Stone/Iron
+Overview: A zombie that summons biting fangs when it dies. Be careful!

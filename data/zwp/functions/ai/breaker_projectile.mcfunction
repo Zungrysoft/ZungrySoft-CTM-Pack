@@ -8,11 +8,11 @@ execute if entity @s[tag=zwp_m6] anchored feet facing entity @e[type=minecraft:m
 execute if entity @s[tag=zwp_m7] anchored feet facing entity @e[type=minecraft:marker,tag=zwp_breaker_marker] feet rotated ~30 ~ run tp @s ^ ^ ^1
 
 # Break Blocks
-execute if predicate zwp:random_20 positioned ~ ~0.5 ~ run function zwp:ai/breaker_break
-execute if predicate zwp:random_20 positioned ~ ~-0.5 ~ run function zwp:ai/breaker_break
-execute if predicate zwp:random_20 positioned ~ ~-1.5 ~ run function zwp:ai/breaker_break
-execute if predicate zwp:random_05 positioned ~ ~-2.5 ~ run function zwp:ai/breaker_break
-execute if predicate zwp:random_01 positioned ~ ~-3.5 ~ run function zwp:ai/breaker_break
+execute if predicate zwp:random_20 positioned ~ ~0.2 ~ run function zwp:ai/breaker_break
+execute if predicate zwp:random_20 positioned ~ ~-0.8 ~ run function zwp:ai/breaker_break
+execute if predicate zwp:random_20 positioned ~ ~-1.8 ~ run function zwp:ai/breaker_break
+execute if predicate zwp:random_05 positioned ~ ~-2.8 ~ run function zwp:ai/breaker_break
+execute if predicate zwp:random_01 positioned ~ ~-3.8 ~ run function zwp:ai/breaker_break
 
 # Particle
 execute if predicate zwp:random_50 run particle minecraft:dust 0.5 0.4 0.4 2 ~ ~ ~ 0.1 0.1 0.1 0 1

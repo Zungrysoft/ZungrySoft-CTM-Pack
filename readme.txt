@@ -34,7 +34,7 @@ Overview: Leaps at the player.
 Archetype of Wrath
 --------------
 Recommended Tier: Iron/Diamond
-Overview: A zombie that tears up the ground in front of it.
+Overview: A zombie that tears up the ground in front of it. (It will not destroy storage blocks, command blocks, or strong blocks such as obsidian.)
 
 Warlock Device
 --------------

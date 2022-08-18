@@ -3,8 +3,8 @@ scoreboard players set @s phase 0
 scoreboard players set @s ammo 0
 
 #If this is a Gunner War Pig, use a much shorter reset time
-execute if entity @s[tag=gunner] run scoreboard players set @s phase 1
-execute if entity @s[tag=gunner] run scoreboard players set @s ammo 2
+execute if entity @s[tag=zwp_gunner] run scoreboard players set @s phase 1
+execute if entity @s[tag=zwp_gunner] run scoreboard players set @s ammo 2
 
 #Sound effect
 playsound minecraft:item.firecharge.use hostile @a ~ ~ ~ 0.8 1.2
@@ -26,5 +26,5 @@ execute store result score z2 value run data get entity @s Pos[2] 100
 function zwp:ai/war_pig_shoot_launch
 
 #If this is a Multishot War Pig, fire another shot to the left or right
-execute if entity @s[tag=multishot] run function zwp:ai/war_pig_aim
-execute if entity @s[tag=multishot] run function zwp:ai/war_pig_shoot_launch
+execute if entity @s[tag=zwp_multishot] run function zwp:ai/war_pig_aim
+execute if entity @s[tag=zwp_multishot] run function zwp:ai/war_pig_shoot_launch

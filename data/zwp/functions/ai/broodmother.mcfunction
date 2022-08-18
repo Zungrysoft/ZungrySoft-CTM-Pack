@@ -12,6 +12,11 @@ scoreboard players set children_nearby value 0
 execute if score @s ammo matches 60.. unless score @s phase matches 1 store result score children_nearby value if entity @e[type=minecraft:husk,tag=broodchild,distance=0..50]
 execute if score children_nearby value matches 7.. run scoreboard players set @s ammo 0
 
+#If the attack is ready to shoot, do a raytrace to make sure we can actually see the target
+scoreboard players set raytrace_result value 0
+execute if score @s ammo matches 60.. run function zwp:helpers/raytrace_nearest
+execute if score raytrace_result value matches 1 run scoreboard players set @s ammo 0
+
 #If the attack is ready to shoot, warn the player with particles
 execute if score @s ammo matches 60.. unless score @s phase matches 1 run function zwp:ai/broodmother_charge
 

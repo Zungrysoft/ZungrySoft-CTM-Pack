@@ -14,4 +14,4 @@ execute if score motion0 value matches -1..1 if score motion1 value matches -1..
 execute if entity @s[nbt={inGround:1b}] run function tid:gameplay/fireball_fizzle
 
 #Particles
-particle flame ~ ~ ~ 0.1 0.1 0.1 0 1
+particle minecraft:flame ~ ~ ~ 0.1 0.1 0.1 0 1

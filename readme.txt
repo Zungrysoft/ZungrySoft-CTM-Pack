@@ -20,7 +20,7 @@ Overview: Flings out hordes of its children. The children have very little healt
 
 Shiftfire Demon
 --------------
-Recommended Tier: Stone/
+Recommended Tier: Stone/Iron
 Overview: A Blaze that randomly dodges your attacks.
 
 Flesheater

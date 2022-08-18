@@ -20,8 +20,8 @@ Overview: Flings out hordes of its children. The children have very little healt
 
 Shiftfire Demon
 --------------
+Recommended Tier: Stone/
 Overview: A Blaze that randomly dodges your attacks.
-Recommended Tier: Stone/Iron
 
 Flesheater
 --------------
@@ -30,3 +30,8 @@ Recommended Tiers:
 	II	- Stone/Iron
 	III	- Iron/Diamond
 Overview: Leaps at the player.
+
+Archetype of Wrath
+--------------
+Recommended Tier: Iron/Diamond
+Overview: A zombie that tears up the ground in front of it.
